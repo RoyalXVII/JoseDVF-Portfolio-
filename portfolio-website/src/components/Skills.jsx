@@ -2,23 +2,23 @@ import React, { useState } from 'react'
 import { 
   FaReact, 
   FaJsSquare, 
-  FaPython, 
   FaNodeJs, 
   FaHtml5, 
   FaCss3Alt, 
   FaGitAlt,
-  FaDocker,
-  FaAws
+  FaDocker
 } from 'react-icons/fa'
 import { 
   SiTypescript, 
-  SiNextdotjs, 
   SiTailwindcss, 
   SiMongodb, 
-  SiPostgresql,
-  SiGraphql,
   SiFirebase,
-  SiRedis
+  SiRedis,
+  SiBulma,
+  SiAngular,
+  SiAdobexd,
+  SiFigma,
+  SiAdobephotoshop
 } from 'react-icons/si'
 
 const Skills = () => {
@@ -28,18 +28,18 @@ const Skills = () => {
     { name: 'JavaScript', icon: FaJsSquare, color: 'text-yellow-400', level: '90%' },
     { name: 'TypeScript', icon: SiTypescript, color: 'text-blue-400', level: '85%' },
     { name: 'React', icon: FaReact, color: 'text-blue-400', level: '95%' },
-    { name: 'Next.js', icon: SiNextdotjs, color: 'text-white', level: '80%' },
+    { name: 'Bulma', icon: SiBulma, color: 'text-teal-500', level: '80%' },
     { name: 'Node.js', icon: FaNodeJs, color: 'text-green-400', level: '85%' },
-    { name: 'Python', icon: FaPython, color: 'text-yellow-300', level: '75%' },
+    { name: 'Angular', icon: SiAngular, color: 'text-red-500', level: '75%' },
     { name: 'HTML5', icon: FaHtml5, color: 'text-orange-500', level: '95%' },
     { name: 'CSS3', icon: FaCss3Alt, color: 'text-blue-500', level: '90%' },
     { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-teal-400', level: '90%' },
     { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500', level: '80%' },
-    { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-600', level: '75%' },
-    { name: 'GraphQL', icon: SiGraphql, color: 'text-pink-500', level: '70%' },
+    { name: 'Adobe XD', icon: SiAdobexd, color: 'text-pink-600', level: '75%' },
+    { name: 'Figma', icon: SiFigma, color: 'text-purple-500', level: '70%' },
     { name: 'Git', icon: FaGitAlt, color: 'text-orange-600', level: '85%' },
     { name: 'Docker', icon: FaDocker, color: 'text-blue-500', level: '70%' },
-    { name: 'AWS', icon: FaAws, color: 'text-orange-400', level: '65%' },
+    { name: 'Photoshop', icon: SiAdobephotoshop, color: 'text-blue-600', level: '65%' },
     { name: 'Firebase', icon: SiFirebase, color: 'text-yellow-500', level: '75%' }
   ]
 
