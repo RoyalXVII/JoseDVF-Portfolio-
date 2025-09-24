@@ -5,45 +5,45 @@ const Education = () => {
   const education = [
     {
       id: 1,
-      degree: "Master of Science in Computer Science",
-      school: "Stanford University",
-      location: "Stanford, CA",
-      period: "2016 - 2018",
-      gpa: "3.9/4.0",
+      degree: "EC Utbildning - Yrkeshögskolan (2 Years)",
+      school: "EC Utbildning - Yrkeshögskolan",
+      location: "Sweden",
+      period: "2022 - 2024",
+      gpa: "Excellent",
       achievements: [
-        "Summa Cum Laude",
-        "Research Assistant in AI Lab",
-        "Published 3 papers on Machine Learning"
+        "Programming Specialization",
+        "Front-End Developer Focus",
+        "Full-Stack Development Skills"
       ],
-      coursework: ["Advanced Algorithms", "Machine Learning", "Database Systems", "Software Engineering"]
+      coursework: ["JavaScript", "React", "Node.js", "Database Management", "Web Development", "Software Architecture"]
     },
     {
       id: 2,
-      degree: "Bachelor of Science in Software Engineering",
-      school: "University of California, Berkeley",
-      location: "Berkeley, CA",
-      period: "2012 - 2016",
-      gpa: "3.7/4.0",
+      degree: "KYH Utbildning - Yrkeshögskolan (2 Years)",
+      school: "KYH Utbildning - Yrkeshögskolan",
+      location: "Sweden",
+      period: "2020 - 2022",
+      gpa: "Excellent",
       achievements: [
-        "Dean's List (6 semesters)",
-        "President of Coding Club",
-        "Hackathon Winner 2015"
+        "UX/UI Designer Specialization",
+        "Design Thinking Methodology",
+        "User-Centered Design Approach"
       ],
-      coursework: ["Data Structures", "Web Development", "Mobile App Development", "Computer Networks"]
+      coursework: ["User Experience Design", "User Interface Design", "Prototyping", "Figma", "Adobe Creative Suite", "User Research"]
     },
     {
       id: 3,
-      degree: "High School Diploma",
-      school: "Tech Preparatory High School",
-      location: "San Jose, CA",
-      period: "2008 - 2012",
-      gpa: "4.0/4.0",
+      degree: "Economics with Marketing Specialization",
+      school: "Thoren Business School - Gymnasium",
+      location: "Sweden",
+      period: "2016 - 2020",
+      gpa: "Very Good",
       achievements: [
-        "Valedictorian",
-        "National Honor Society",
-        "Computer Science Award"
+        "4-Year Business Program",
+        "Marketing Specialization",
+        "Business Administration Focus"
       ],
-      coursework: ["AP Computer Science", "AP Calculus", "AP Physics", "Advanced Mathematics"]
+      coursework: ["Economics", "Marketing", "Business Administration", "Financial Management", "Project Management", "Statistics"]
     }
   ]
 

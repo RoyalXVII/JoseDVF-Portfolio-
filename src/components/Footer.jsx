@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
           
           <a 
-            href="mailto:your.email@example.com"
+            href="mailto:Jose.1032@live.com"
             className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105"
           >
             <FaEnvelope />
@@ -27,7 +27,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-12">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/RoyalXVII"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-slate-800/50 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-300 hover:text-white hover:bg-purple-600 transition-all duration-300 transform hover:scale-110 border border-purple-500/20 hover:border-purple-400/50"
@@ -35,7 +35,7 @@ const Footer = () => {
             <FaGithub className="text-xl" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/jos%C3%A9-verbakel-281699180/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-slate-800/50 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-300 hover:text-white hover:bg-blue-600 transition-all duration-300 transform hover:scale-110 border border-purple-500/20 hover:border-blue-400/50"
@@ -43,7 +43,7 @@ const Footer = () => {
             <FaLinkedin className="text-xl" />
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://cv-website-dae67.web.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-slate-800/50 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-300 hover:text-white hover:bg-sky-500 transition-all duration-300 transform hover:scale-110 border border-purple-500/20 hover:border-sky-400/50"
@@ -51,7 +51,7 @@ const Footer = () => {
             <FaTwitter className="text-xl" />
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:Jose.1032@live.com"
             className="w-12 h-12 bg-slate-800/50 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-300 hover:text-white hover:bg-red-600 transition-all duration-300 transform hover:scale-110 border border-purple-500/20 hover:border-red-400/50"
           >
             <FaEnvelope className="text-xl" />

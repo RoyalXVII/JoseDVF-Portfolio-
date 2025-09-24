@@ -5,39 +5,30 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      position: "Senior Frontend Developer",
-      company: "Tech Solutions Inc.",
-      location: "San Francisco, CA",
+      position: "Junior Programmer / UX UI Designer",
+      company: "Freelance",
+      location: "Remote",
       period: "2023 - Present",
-      description: "Led the development of responsive web applications using React and TypeScript. Collaborated with cross-functional teams to deliver high-quality user experiences and improved application performance by 40%.",
-      technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS"]
+      description: "Developed a WordPress website for HandiHow's applications, focusing on improving user experience and simplifying navigation. Worked closely with a client from Mallorca, Spain, to create a functional WordPress website. Designed user-friendly websites primarily featuring contact information and options for users to select and send PDF files to mail addresses.",
+      technologies: ["WordPress", "HTML5", "CSS3", "JavaScript", "UX/UI Design"]
     },
     {
       id: 2,
-      position: "Full Stack Developer",
-      company: "Digital Innovations Co.",
-      location: "New York, NY",
-      period: "2021 - 2023",
-      description: "Developed and maintained full-stack web applications using modern technologies. Implemented RESTful APIs and database solutions, resulting in improved system reliability and user satisfaction.",
-      technologies: ["React", "Node.js", "MongoDB", "Express.js"]
+      position: "UX Designer",
+      company: "Various Projects",
+      location: "Remote",
+      period: "2022 - 2023",
+      description: "Developed interactive design prototypes and optimized user flow for various applications. Worked extensively with Figma to create high-fidelity prototypes and mock-ups of applications that could solve specific problems. Created databases using MongoDB and SQL Azure to host mock-up projects.",
+      technologies: ["Figma", "Adobe XD", "Adobe Photoshop", "MongoDB", "SQL Azure", "Prototyping"]
     },
     {
       id: 3,
-      position: "Frontend Developer",
-      company: "Creative Web Studio",
-      location: "Los Angeles, CA",
-      period: "2019 - 2021",
-      description: "Created engaging user interfaces and interactive web experiences. Worked closely with designers to implement pixel-perfect designs and ensure cross-browser compatibility.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "Vue.js"]
-    },
-    {
-      id: 4,
-      position: "Junior Web Developer",
-      company: "StartUp Hub",
-      location: "Austin, TX",
-      period: "2018 - 2019",
-      description: "Assisted in developing web applications and learned modern development practices. Participated in code reviews and contributed to improving development workflows and documentation.",
-      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"]
+      position: "Web Developer",
+      company: "School Projects & Freelance",
+      location: "Sweden/Netherlands",
+      period: "2020 - 2022",
+      description: "Designed multiple websites using CSS and HTML with light Java. Worked extensively with Adobe Photoshop and XD to create logos and designs for mock-up projects and assignments. Worked in collaborative teamwork environments while both programming and UX designing. Completed projects involving budgeting and thinking about both investors and company budgets.",
+      technologies: ["HTML5", "CSS3", "Java", "Adobe Photoshop", "Adobe XD", "Team Collaboration"]
     }
   ]
 

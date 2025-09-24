@@ -18,6 +18,12 @@ const Header = () => {
               Home
             </a>
             <a 
+              href="#about" 
+              className="text-gray-300 hover:text-purple-400 transition-colors duration-300"
+            >
+              About
+            </a>
+            <a 
               href="#skills" 
               className="text-gray-300 hover:text-purple-400 transition-colors duration-300"
             >
@@ -77,6 +83,13 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
+              </a>
+              <a 
+                href="#about" 
+                className="block py-2 text-gray-300 hover:text-purple-400 transition-colors duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
               </a>
               <a 
                 href="#skills" 
