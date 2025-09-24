@@ -1,10 +1,9 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import { FaExternalLinkAlt, FaGithub, FaReact, FaNodeJs } from 'react-icons/fa'
 import { SiNextdotjs, SiTailwindcss, SiMongodb, SiTypescript } from 'react-icons/si'
 
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null)
-  const scrollRef = useRef(null)
 
   // Sample projects - you can replace these with your actual projects
   const projects = [
@@ -140,23 +139,14 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Other Projects - Horizontal Scroll */}
-        <div className="relative">
+        {/* All Projects */}
+        <div>
           <h3 className="text-2xl font-bold text-purple-400 mb-8 text-center">Other Projects</h3>
-          
-          {/* Horizontal Scrolling Container */}
-          <div 
-            ref={scrollRef}
-            className="flex gap-6 overflow-x-auto scrollbar-hide pb-4 px-6 max-w-7xl mx-auto"
-            style={{
-              scrollbarWidth: 'none',
-              msOverflowStyle: 'none',
-            }}
-          >
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center max-w-7xl mx-auto">
             {projects.filter(project => !project.featured).map((project) => (
               <div
                 key={project.id}
-                className="group relative bg-slate-800/30 backdrop-blur-sm rounded-xl overflow-hidden border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-[1.02] w-80 flex-shrink-0"
+                className="group relative bg-slate-800/30 backdrop-blur-sm rounded-xl overflow-hidden border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-[1.02] w-full max-w-sm"
                 onMouseEnter={() => setHoveredProject(project.id)}
                 onMouseLeave={() => setHoveredProject(null)}
               >
